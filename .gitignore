@@ -1,0 +1,96 @@
+# =========================
+# ESP-IDF build outputs
+# =========================
+build/
+sdkconfig
+sdkconfig.old
+sdkconfig.defaults
+
+# =========================
+# ESP-IDF tools & caches
+# =========================
+.espressif/
+managed_components/
+dependencies.lock
+
+# =========================
+# Flash / monitor artifacts
+# =========================
+*.elf
+*.map
+*.bin
+*.hex
+*.lst
+*.sym
+
+# =========================
+# CMake
+# =========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# =========================
+# IDEs / Editors
+# =========================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Eclipse
+.project
+.cproject
+.settings/
+
+# Vim
+*.swp
+*.swo
+*.swn
+
+# =========================
+# OS junk
+# =========================
+
+# Linux
+*~
+*.bak
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# =========================
+# Optional: LVGL generated files
+# =========================
+lvgl/.cache/
+lvgl/.generated/
+
+# =========================
+# Optional: Assets / temp
+# =========================
+assets/tmp/
+assets/.cache/
+
