@@ -14,8 +14,8 @@ Just change the `` s_buttons[] `` array in `` main/src/ui_canmon.c ``
 
 ## Quick Start
 ```bash
-$ git clone ..
-$ cd ...
+$ git clone https://github.com/BG4zi/esp-can.git
+$ cd esp-can
 $ idf.py reconfigure
 $ idf.py build flash monitor
 ```
