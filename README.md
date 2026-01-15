@@ -19,3 +19,7 @@ $ cd esp-can
 $ idf.py reconfigure
 $ idf.py build flash monitor
 ```
+
+## To-Do
+- [ ] Make An http server that CAN messages can be displayed and transmitted by making requests
+- [ ] UI optimisation is required in the future (too slow)
